@@ -1,0 +1,276 @@
+/*.ball{
+    height: auto;
+    font-weight: auto;
+    background-size: cover;
+    position: relative;
+    }*/
+
+/* .ball2{
+    position: absolute;
+} */
+
+*{
+    box-sizing:border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+
+
+.title p{
+        font-size: 30px;
+        height: 100px;
+        border: none;
+        border-top: 1px blueviolet solid;
+        border-bottom: 1px blueviolet  solid;
+}
+
+
+
+.yokonarabi1{
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+    color: #02ccba;
+    background-color: chartreuse;
+    
+}
+
+
+
+.ball3{
+    float: left;
+    width: 25%;
+}
+
+
+
+.picture:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.name{
+    position: relative;/*親要素にrelative*/
+}
+
+.name3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:55%;
+    bottom: 50%;
+    left: 35%;
+  color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+.from{
+    position: relative;/*親要素にrelative*/
+}
+
+.from3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:55%;
+    bottom: 50%;
+    left: 28%;
+  color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+.birthday{
+    position: relative;/*親要素にrelative*/
+}
+
+.birthday3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:58%;
+    bottom: 50%;
+    left: 38%;
+  color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+.yokonarabi2{
+    display: flex;
+}
+
+
+
+.food{
+    position: relative;/*親要素にrelative*/
+}
+
+.food3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:50%;
+    bottom: 50%;
+    left: 28%;
+  color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+.hobby{
+    position: relative;/*親要素にrelative*/
+}
+
+.hobby3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:50%;
+    bottom: 50%;
+    left: 35%;
+  color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+.women{
+    position: relative;/*親要素にrelative*/
+}
+
+.women3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:50%;
+    bottom: 50%;
+    left: 28%;
+    color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+.yokonarabi3{
+    display: flex;
+}
+
+
+
+.men{
+    position: relative;/*親要素にrelative*/
+}
+
+.men3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:50%;
+    bottom: 50%;
+    left: 23%;
+    color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+.park{
+    position: relative;/*親要素にrelative*/
+}
+
+.park3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:55%;
+    bottom: 50%;
+    left: 23%;
+    color: blue;
+  font-size: 15px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+.memory{
+    position: relative;/*親要素にrelative*/
+}
+
+.memory3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:55%;
+    bottom: 50%;
+    left: 30%;
+    color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+.memory4{
+    text-decoration: underline double red;
+}
+
+
+
+.yokonarabi4{
+    display: flex;
+}
+
+
+
+
+.hitokoto{
+    position: relative;/*親要素にrelative*/
+}
+
+
+
+.hitokoto3{
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top:55%;
+    bottom: 50%;
+    left: 28%;
+    color: blue;
+  font-size: 20px;
+  margin: 0 auto;/*文字がずれている場合や*/
+  padding: 0 auto;/*文字が折り返される場合*/
+  line-height: 20px; /* 行の高さを指定する */
+}
+
+
+
+ /*   text-align: center;
+background-size: cover;
+
+
+background: url(C:\Users\なおや\Downloads\カラフルな水玉.jpg) no-repeat;
+  width: 700px;
+  height: 700px;
+  padding: 20px;
+
+
+  -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+ /* -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
