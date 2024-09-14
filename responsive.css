@@ -1,0 +1,55 @@
+* タブレット向けレイアウト */
+@media all and(max-width: 1023px) {
+    .picture{ max-width: 100%; }
+
+    .lesson{
+      width: 50%;
+      margin-bottom: 50px;
+    }
+
+
+
+.title p{
+        font-size: 20px;
+        height: 100px;
+        border: none
+}
+
+.ball3{
+    float: center;
+    width: 50%;
+ }
+
+
+}
+
+
+/* スマホ向けレイアウト */
+@media all and(max-width: 378px) {
+    /* .lessonのwidthを100%に指定してください */
+    .picture{ max-width: 100%; }
+
+    .lesson{
+      width:100%;
+    }
+    
+
+    .title p{
+        font-size: 20px;
+        height: 100px;
+        border: none
+     }
+
+
+    .ball3{
+      text-align:center;
+    }
+
+    .yokonarabi {
+        display:flex;
+        flex-direction: column;
+      }
+    
+    
+    
+  }
