@@ -1,21 +1,29 @@
-/*.ball{
-    height: auto;
-    font-weight: auto;
-    background-size: cover;
-    position: relative;
-    }*/
-
-/* .ball2{
-    position: absolute;
-} */
-
 *{
     box-sizing:border-box;
 }
 
 .title{
     text-align: center;
+    background-image: url(C:\Users\なおや\Downloads\水玉.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    height:100%;
+    width: 100%;
 }
+
+
+
+/*.title::before{
+    /* 透過した黒を上から重ねるイメージ */
+ /* background-color: rgba(0,0,0,0.4);*/
+    /* 自由に位置指定 */
+   /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}*/
 
 
 
@@ -29,7 +37,7 @@
 
 
 
-.yokonarabi1{
+.yokonarabi{
     display: flex;
 }
 
@@ -42,17 +50,17 @@ h1 {
 
 
 
+.picture:active{
+    box-shadow:none;
+    position:relative;
+    top:50px;
+  }
+
+
+
 .ball3{
     float: left;
     width: 25%;
-}
-
-
-
-.picture:hover{
-    color: #FF0000;
-	font-size: 20px;
-	font-weight: bold;
 }
 
 
@@ -70,6 +78,12 @@ h1 {
   margin: 0 auto;/*文字がずれている場合や*/
   padding: 0 auto;/*文字が折り返される場合*/
   line-height: 20px; /* 行の高さを指定する */
+}
+
+.name3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 
@@ -90,6 +104,12 @@ h1 {
   line-height: 20px; /* 行の高さを指定する */
 }
 
+.from3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 
 
 .birthday{
@@ -108,10 +128,10 @@ h1 {
   line-height: 20px; /* 行の高さを指定する */
 }
 
-
-
-.yokonarabi2{
-    display: flex;
+.birthday3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 
@@ -132,6 +152,12 @@ h1 {
   line-height: 20px; /* 行の高さを指定する */
 }
 
+.food3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 
 
 .hobby{
@@ -148,6 +174,12 @@ h1 {
   margin: 0 auto;/*文字がずれている場合や*/
   padding: 0 auto;/*文字が折り返される場合*/
   line-height: 20px; /* 行の高さを指定する */
+}
+
+.hobby3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 
@@ -168,9 +200,10 @@ h1 {
   line-height: 20px; /* 行の高さを指定する */
 }
 
-
-.yokonarabi3{
-    display: flex;
+.women3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 
@@ -191,6 +224,12 @@ h1 {
   line-height: 20px; /* 行の高さを指定する */
 }
 
+.men3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 
 
 .park{
@@ -207,6 +246,12 @@ h1 {
   margin: 0 auto;/*文字がずれている場合や*/
   padding: 0 auto;/*文字が折り返される場合*/
   line-height: 20px; /* 行の高さを指定する */
+}
+
+.park3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 
@@ -227,26 +272,21 @@ h1 {
   line-height: 20px; /* 行の高さを指定する */
 }
 
-
-
 .memory4{
-    text-decoration: underline double red;
+    text-decoration: underline double greenyellow;
 }
 
-
-
-.yokonarabi4{
-    display: flex;
+.memory3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
 }
-
 
 
 
 .hitokoto{
     position: relative;/*親要素にrelative*/
 }
-
-
 
 .hitokoto3{
     position: absolute;/*重ねたい子要素にabsolute*/
@@ -258,6 +298,12 @@ h1 {
   margin: 0 auto;/*文字がずれている場合や*/
   padding: 0 auto;/*文字が折り返される場合*/
   line-height: 20px; /* 行の高さを指定する */
+}
+
+.hitokoto3:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 
@@ -274,3 +320,4 @@ background: url(C:\Users\なおや\Downloads\カラフルな水玉.jpg) no-repea
 
   -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
  /* -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+
